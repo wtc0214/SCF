@@ -7,7 +7,7 @@ RGB-YOLO11 is a real-time RGB-thermal object detection framework built upon YOLO
 Unlike conventional detection models that suffer from unstable cross-modal fusion and limited local spatial modeling capability, RGB-YOLO11 focuses on achieving a better balance between detection accuracy and real-time efficiency, making it suitable for practical deployment in surveillance, autonomous systems, and edge devices.
 ## Model Architecture
 RGB-YOLO11 introduces two key modules to improve cross-modal fusion quality and feature representation capability:
-- Stable Cross-Modal Fusion (SCMF) Module
+- Stable Cross-Modal Fusion (SCF) Module
   Enables attention-guided bimodal feature recalibration and residual fusion. It effectively suppresses modality interference while preserving complementary information between RGB and thermal features.
 - Window Self-Attention Neck (WSA-Neck)
   Enhances multi-scale feature aggregation and local spatial dependency modeling through window-based self-attention, improving detection performance for small and densely distributed objects.
